@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserSync", "Plugins\UserSync\UserSync.csproj", "{08797B3F-8C6B-41E6-B391-3548EF43220F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileSync", "Plugins\FileSync\FileSync.csproj", "{950A7D2A-9B9A-42C3-8C65-291A82867351}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SamplePlugins", "SamplePlugins", "{B041F381-6F37-48ED-905A-E4258720D77C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Taski.Scheduler.Core", "Taski.Scheduler.Core\Taski.Scheduler.Core.csproj", "{A882EB3C-61DB-45C7-9ED2-DD2F1D018433}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Taski.Scheduler", "Taski.Scheduler\Taski.Scheduler.csproj", "{7FC2F16B-B826-4198-B8CC-8E229DFAA3CA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Taski.Console", "Taski.Console\Taski.Console.csproj", "{5A72574C-93FA-4423-9E14-267A4A4101F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{78CB7CA8-D1EA-4470-A632-D57ADB579030}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08797B3F-8C6B-41E6-B391-3548EF43220F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08797B3F-8C6B-41E6-B391-3548EF43220F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08797B3F-8C6B-41E6-B391-3548EF43220F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08797B3F-8C6B-41E6-B391-3548EF43220F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{950A7D2A-9B9A-42C3-8C65-291A82867351}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{950A7D2A-9B9A-42C3-8C65-291A82867351}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{950A7D2A-9B9A-42C3-8C65-291A82867351}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{950A7D2A-9B9A-42C3-8C65-291A82867351}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A882EB3C-61DB-45C7-9ED2-DD2F1D018433}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A882EB3C-61DB-45C7-9ED2-DD2F1D018433}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A882EB3C-61DB-45C7-9ED2-DD2F1D018433}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A882EB3C-61DB-45C7-9ED2-DD2F1D018433}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FC2F16B-B826-4198-B8CC-8E229DFAA3CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FC2F16B-B826-4198-B8CC-8E229DFAA3CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FC2F16B-B826-4198-B8CC-8E229DFAA3CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FC2F16B-B826-4198-B8CC-8E229DFAA3CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A72574C-93FA-4423-9E14-267A4A4101F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A72574C-93FA-4423-9E14-267A4A4101F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A72574C-93FA-4423-9E14-267A4A4101F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A72574C-93FA-4423-9E14-267A4A4101F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{08797B3F-8C6B-41E6-B391-3548EF43220F} = {B041F381-6F37-48ED-905A-E4258720D77C}
+		{950A7D2A-9B9A-42C3-8C65-291A82867351} = {B041F381-6F37-48ED-905A-E4258720D77C}
+		{A882EB3C-61DB-45C7-9ED2-DD2F1D018433} = {78CB7CA8-D1EA-4470-A632-D57ADB579030}
+		{7FC2F16B-B826-4198-B8CC-8E229DFAA3CA} = {78CB7CA8-D1EA-4470-A632-D57ADB579030}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DD34F285-DCBB-4499-811B-9C984B951157}
+	EndGlobalSection
+EndGlobal
